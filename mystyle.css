@@ -1,0 +1,79 @@
+ * {
+
+    margin: 0;
+    padding: 0;
+} 
+
+
+:root {
+
+    font-size: 62,5%;
+    
+}
+
+/* <<<<<<<<< header >>>>>>>>>>>>>> */
+
+
+.main-header {
+
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    height: 100px;
+
+   
+}
+
+
+h1,h2  {
+
+    color: yellow;
+    margin: none;
+    font-size: 1.5rem;
+}
+
+/* <<<<<<<<< MAIN >>>>>>>>>>>>>> */
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    background-color: blueviolet;
+    height: 100em;
+  }
+
+  .column1 {
+
+    float: right;
+    width: 75%;
+    background-color: green;
+    height: 100em;
+    
+
+    
+  }
+
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .footer {
+    background-color: pink;    
+    padding: 10px;
+    height: 15em;
+  }
+  
+ 
